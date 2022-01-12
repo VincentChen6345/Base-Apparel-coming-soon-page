@@ -1,0 +1,35 @@
+.lp-section {
+  display: grid;
+  grid-template-columns: minmax(45rem, auto) 1fr;
+  //   column-gap: 3rem;
+  grid-template-rows: 1fr;
+  &__img {
+    grid-column: 2/3;
+    grid-row: 1/1;
+  }
+
+  &_body {
+    margin-left: 8rem;
+    padding-right: 8rem;
+    &__heading {
+      grid-column: 1/2;
+      grid-row: 1/1;
+      margin-top: 5rem;
+    }
+    &__content {
+      margin-top: 3rem;
+      grid-column: 1/2;
+      grid-row: 1/1;
+    }
+
+    &__email-input {
+      grid-row: 1/1;
+      grid-column: 1/2;
+      margin-top: 2rem;
+    }
+  }
+}
+
+.logo {
+  margin-top: 15%;
+}
