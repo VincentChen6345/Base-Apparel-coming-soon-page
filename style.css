@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +9,35 @@ html {
 
 body {
   line-height: 1.6;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   background-image: url("images/bg-pattern-desktop.svg");
   background-size: contain; }
+
+em {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 4rem;
+  font-style: normal;
+  color: #ba8788; }
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1rem;
+  color: #322b2c; }
+
+.lp-section_body__content {
+  color: #bf9a9c;
+  word-spacing: 0.3rem; }
+
+.lp-section_body__email-input {
+  color: #bf9a9c; }
+
+::placeholder {
+  color: #ebd3d6; }
 
 .lp-section {
   display: grid;
@@ -29,13 +54,22 @@ body {
       grid-row: 1/1;
       margin-top: 5rem; }
     .lp-section_body__content {
-      margin-top: 3rem;
+      margin-top: 2rem;
       grid-column: 1/2;
-      grid-row: 1/1; }
+      grid-row: 1/1;
+      margin-right: 2.5rem; }
     .lp-section_body__email-input {
       grid-row: 1/1;
       grid-column: 1/2;
-      margin-top: 2rem; }
+      margin-top: 2rem;
+      width: 90%;
+      height: 3.5rem;
+      border-radius: 50px;
+      text-indent: 2rem;
+      border: 1px solid #ba8788;
+      outline-color: #ba8788; }
+      .lp-section_body__email-input:focus {
+        outline: none; }
 
 .logo {
   margin-top: 15%; }

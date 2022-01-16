@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap");
+
+em {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 4rem;
+  font-style: normal;
+  color: $heading-color;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1rem;
+  color: $heading-black;
+}
+
+.lp-section_body__content {
+  color: $text-color;
+  word-spacing: 0.3rem;
+}
+.lp-section_body__email-input {
+  color: $text-color;
+}
+::placeholder {
+  color: $text-color-light;
+}
